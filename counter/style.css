@@ -1,0 +1,108 @@
+:root {
+  --height: 1%;
+  --color: cyan;
+  --col: blue;
+}
+
+#gamecontainer {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  /* top:0%; */
+  /* left:0%; */
+  display: none;
+  border: 0px solid red;
+  width: 99%;
+  height: var(--height);
+  background-color: var(--color);
+}
+body {
+  background: grey;
+}
+#startgamebutton {
+  position: absolute;
+  right: 47%;
+  left: 45%;
+  top: 82%;
+  margin: 2px;
+  border-radius: 25px;
+}
+.ball {
+  display: block;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: var(--col) ;
+  position: absolute;
+  top:var(--top);
+  left:var(--left);
+}
+.ctr {
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  right: 45%;
+  font: 4rem "Times new roman", serif;
+}
+.ze {
+  bottom: 38%;
+  left: 42%;
+  text-align: center;
+}
+.btn {
+  padding-right: 30px;
+  padding-left: 30px;
+  display: block;
+  position: absolute;
+  bottom: 35%;
+  right: 40%;
+}
+.a {
+  position: absolute;
+  right: 55%;
+}
+.b {
+  position: absolute;
+  right: 47%;
+}
+.c {
+  position: absolute;
+  right: 38%;
+}
+#button1 {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+#button2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+#button3 {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+#button1.clicked {
+  background-color: black;
+  color: white;
+}
+#button2.clicked {
+  background-color: black;
+  color: white;
+}
+#button3.clicked {
+  background-color: black;
+  color: white;
+}
